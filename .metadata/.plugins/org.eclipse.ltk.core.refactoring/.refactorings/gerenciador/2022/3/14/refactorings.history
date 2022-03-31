@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;gerenciador/WebContent/bemvindo.html&apos; to &apos;bemvindo.xhtml&apos;" description="Rename resource &apos;bemvindo.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/bemvindo.html" name="bemvindo.xhtml" stamp="1648673726296" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;gerenciador/WebContent/bemvindo.xhtml&apos; to &apos;bemvindo.html&apos;" description="Rename resource &apos;bemvindo.xhtml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/bemvindo.xhtml" name="bemvindo.html" stamp="1648673758071" updateReferences="true"/>
+</session>

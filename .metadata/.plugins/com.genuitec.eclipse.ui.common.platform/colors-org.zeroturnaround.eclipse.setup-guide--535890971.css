@@ -1,0 +1,25 @@
+#SetupGuideView,
+#SetupGuideView *
+{
+background-color: #3c3e40;
+}
+#SetupGuideView > Composite.steps {
+background-color: #020202;
+}
+
+#SetupGuideView StepPanel.hovered,
+#SetupGuideView StepPanel.hovered *
+{
+background-color: #020202;
+}
+#SetupGuideView StepPanel.opened,
+#SetupGuideView StepPanel.opened *
+{
+background-color: #020202;
+}
+
+#SetupGuideView StepPanel .error *
+{
+background-color: #8e403f;
+color: #f2dede;
+}

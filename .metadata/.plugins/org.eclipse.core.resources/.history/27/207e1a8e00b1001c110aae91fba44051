@@ -1,0 +1,26 @@
+package br.com.alura.gerenciador.servlet;
+
+import java.io.IOException;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet(urlPatterns = "/oi")
+public class OiMundoServelet extends HttpServlet {
+	
+	@Override
+	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) {
+		
+		PrintWriter out = arg1.getWriter();
+		out.printlln("<html>");
+		out.printlln("<body>");
+		out.printlln("Oi, mundo, parabéns! Você escreveu seu primeiro Servlets");
+		out.printlln("</body>");
+		out.printlln("</html>");
+		
+	}
+
+}
